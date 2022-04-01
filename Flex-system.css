@@ -1,0 +1,63 @@
+body{
+  height: 100%;
+  font-family: Bahnschrift Light;
+}
+.flex-container, .flex-container3 {
+    display: flex;
+    background-color: rgb(175, 179, 177);
+    flex-direction: column;
+}
+  
+.flex-container > div, .flex-container3 > div {
+    background-color: #d4876f;
+    margin: 10px;
+    padding: 3%;
+    font-size: 30px;
+    flex-basis: 100%;
+}
+.flex-container2 {
+    display: flex;
+    background-color: rgb(175, 179, 177);
+}
+  
+.flex-container2 > div {
+    background-color: #a84020;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    flex-basis: 100%;
+  }
+.flex-nested {
+    display: flex;
+    background-color: rgb(175, 179, 177);
+    flex-direction: column;
+  }
+h2{
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    width: 20%;
+}
+
+h2:hover{
+    border-width: 4px;
+    border-style: dashed;
+    border-color: rgb(8, 134, 245);
+    border-radius: 50%;
+    
+}
+  
+  .flex-nested > div {
+    background-color: #d4876f;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+   #body{
+      padding-bottom: 13%;
+  }
+  h1{
+    text-align: center;
+    font-size: 100px;
+  }
+  
